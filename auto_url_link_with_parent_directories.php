@@ -1,3 +1,12 @@
+<!-- The code reads the full url and produces links to all the parent directories within a single looking link.
+for example on "website.com/a/b/c" clicking the "b" would take you to "https://website.com/a/b"
+
+NOTES:
+If your website still uses http:// not https:// it's recommended to alter the code accordingly (line 26). 
+The menu-link styles are completely optional. 
+-->
+
+
 <html>
 <style>
 #menu-link {
